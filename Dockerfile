@@ -1,4 +1,4 @@
-FROM alpine
+FROM node:lts-alpine
 RUN apk update
 RUN apk add bash
 RUN apk add openssl
